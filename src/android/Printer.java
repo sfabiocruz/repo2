@@ -108,7 +108,7 @@ public final class Printer extends CordovaPlugin
             JSONArray utis2;
             utis2.put(utis.get(0));
             PluginResult res = new PluginResult(
-                    Status.OK, utis2;
+                    Status.OK, utis2);
 
             callback.sendPluginResult(res);
         });
