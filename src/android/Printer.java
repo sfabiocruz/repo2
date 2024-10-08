@@ -106,7 +106,7 @@ public final class Printer extends CordovaPlugin
         cordova.getThreadPool().execute(() -> {
             JSONArray utis = PrintManager.getPrintableTypes();
             JSONArray utis2;
-            utis2.put(utis.get(0);
+            utis2.put(utis.get(0));
             PluginResult res = new PluginResult(
                     Status.OK, utis2;
 
